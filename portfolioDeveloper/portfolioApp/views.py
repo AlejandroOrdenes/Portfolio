@@ -2,9 +2,9 @@ from django.shortcuts import render
 from django.utils.translation import gettext_lazy as _
 
 # Create your views here.
-def base(request):
+def index(request):
     p =  _("I'm a")
-    return render(request, 'base.html', {'text' : p})
+    return render(request, 'index.html', {'text' : p})
 
 def textTraductions(request):
     return render()
