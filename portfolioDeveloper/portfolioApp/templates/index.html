@@ -11,6 +11,12 @@
     <meta content="" name="description">
     <meta content="" name="keywords">
 
+    <link rel="apple-touch-icon" sizes="180x180" href="{% static 'portfolioApp/favicon_io/apple-touch-icon.png'%}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{% static 'portfolioApp/favicon_io/favicon-32x32.png'%}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{% static 'portfolioApp/favicon_io/favicon-16x16.png' %}">
+    <link rel="icon" type="image/png" sizes="192x192" href="{% static 'portfolioApp/favicon_io/android-chrome-192x192.png' %}">
+    <link rel="icon" type="image/png" sizes="512x512" href="{% static 'portfolioApp/favicon_io/android-chrome-5125x512.png' %}">
+    <link rel="manifest" href="{% static 'portfolioApp/favicon_io/site.webmanifest'%}">
     <!-- Google Fonts -->
     <link
         href="http://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
@@ -31,7 +37,7 @@
 
     <!-- ======= Header ======= -->
     <header id="header">
-        
+
         <div class="container">
 
             <h1><a href="base.html">Alejandro Ordenes</a></h1>
@@ -46,7 +52,7 @@
                     <li style="margin-right: 1.5rem;"><a class="nav-link" href="#contact">{% trans "Contact" %}</a></li>
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
-                
+
             </nav>
 
             <div class="social-links" style="margin-bottom: 0.8rem;">
@@ -60,7 +66,7 @@
                 </a>
                 <a style="font-size: 15px;" href="#" class="translate" id="lang-toggle"></a>
             </div>
-            
+
 
         </div>
     </header>
@@ -85,10 +91,12 @@
                     <p class="fst-italic">
                         <!-- ¡Hola! Soy Alejandro Ordenes, Analista Programador titulado de DuocUC Viña del Mar. He trabajado en proyectos tecnológicos desafiantes que han ampliado mis conocimientos técnicos y habilidades de trabajo en equipo. Algunos de mis proyectos y trabajos incluyen el desarrollo completo de una app web para análisis y simulación de arbitrage de cryptomonedas llamada ArbStrat Crypto, ademas la implementación de la interfaz grafica para una app mobile de Bigeo, entre otros proyectos. -->
 
-                        {% blocktrans %} Hello! I am a Computer Programmer with a degree from DuocUC Viña del Mar, Chile. {% endblocktrans %}
+                        {% blocktrans %} Hello! I am a Computer Programmer with a degree from DuocUC Viña del Mar,
+                        Chile. {% endblocktrans %}
 
                     </p>
-                    <p class="fst-italic" >{% blocktrans %} I have worked on challenging technological projects that have expanded my
+                    <p class="fst-italic">{% blocktrans %} I have worked on challenging technological projects that have
+                        expanded my
                         technical knowledge and teamwork skills. Some of my projects and works include the complete
                         development of a web app for the analysis and simulation of cryptocurrency arbitrage called
                         ArbStrat Crypto, as well as the implementation of the graphical interface for a mobile app
@@ -96,12 +104,14 @@
                     <p class="fst-italic">
                         <!-- Además, mi experiencia como músico profesional, en compañías de cruceros Princess Cruises y Cunard, ha enriquecido mis habilidades de comunicación y trabajo en equipo en un entorno internacional, utilizando el inglés como idioma principal. Esta combinación única de habilidades me permite abordar proyectos con creatividad, disciplina y colaboración. -->
 
-                        {% blocktrans %} In addition, my experience as a professional musician in cruise companies Princess Cruises and
+                        {% blocktrans %} In addition, my experience as a professional musician in cruise companies
+                        Princess Cruises and
                         Cunard has enriched my communication and teamwork skills in an international environment, using
                         English as the primary language. This combination of skills enables me to approach
                         projects with creativity, discipline, and collaboration. {% endblocktrans %}
                     </p>
-                    <p class="fst-italic">{% blocktrans %} I am excited about the opportunity to contribute as a Junior Software
+                    <p class="fst-italic">{% blocktrans %} I am excited about the opportunity to contribute as a Junior
+                        Software
                         Developer. Please review my resume and portfolio to learn more about my projects and
                         achievements!{% endblocktrans %}</p>
                     <!-- <div class="row">
@@ -488,9 +498,7 @@
                         <p><em>Viña del Mar, Chile.</em></p>
                         <p>
                         <ul>
-                            <li>{% blocktrans %} Development of a Web Application to find arbitrage opportunities with cryptocurrencies,
-                                taking real-time price data from the Dydx API. An API was created for data handling and
-                                processing. {% endblocktrans %}
+                            <li>{% blocktrans %} Development of a Web Application to find arbitrage opportunities with cryptocurrencies, taking real-time price data from the Dydx API. An API was created for data handling and processing.{%endblocktrans %}
                             </li>
                             <li>{% trans "Technologies used in the project:"%}</li>
                             <li style="list-style-type: none">- Python / Django</li>
@@ -533,7 +541,9 @@
                     <div class="icon-box">
                         <div class="icon"><i class="bx bxs-chart"></i></div>
                         <h4><a href="">{% trans "ArbStrat Crypto"%}</a></h4>
-                        <p style="text-align: justify;">{% blocktrans %} Web application that seeks cryptocurrency pairs for arbitrage operations. It is based on a strategy of cointegrated pairs and calculations of different metrics to search for favorable arbitrage opportunities.{% endblocktrans %}</p>
+                        <p style="text-align: justify;">{% blocktrans %} Web application that seeks cryptocurrency pairs
+                            for arbitrage operations. It is based on a strategy of cointegrated pairs and calculations
+                            of different metrics to search for favorable arbitrage opportunities.{% endblocktrans %}</p>
                     </div>
                 </div>
 
@@ -541,7 +551,9 @@
                     <div class="icon-box">
                         <div class="icon"><i class="bx bxs-tree"></i></div>
                         <h4><a href="http://bigeo.cl/" target="_blank">Bigeo</a></h4>
-                        <p style="text-align: justify;">{% blocktrans %} Mobile application for the control and management of agricultural fields. Forms, routes, and more are recorded through the mobile application {% endblocktrans %}</p>
+                        <p style="text-align: justify;">{% blocktrans %} Mobile application for the control and
+                            management of agricultural fields. Forms, routes, and more are recorded through the mobile
+                            application {% endblocktrans %}</p>
                     </div>
                 </div>
 
@@ -549,7 +561,9 @@
                     <div class="icon-box">
                         <div class="icon"><i class="bx bxs-florist"></i></div>
                         <h4><a href="">Tu Jardin</a></h4>
-                        <p style="text-align: justify;">{% blocktrans %} Website for the sale of gardening supplies. It features shopping carts, user management, among other functionalities.{% endblocktrans %}</p>
+                        <p style="text-align: justify;">{% blocktrans %} Website for the sale of gardening supplies. It
+                            features shopping carts, user management, among other functionalities.{% endblocktrans %}
+                        </p>
                     </div>
                 </div>
             </div>
@@ -595,7 +609,9 @@
                     <div class="info-box">
                         <i class="bx bx-envelope"></i>
                         <h3>{% trans "Email Me"%}</h3>
-                        <a href="https://forms.gle/CGz39CoUpryTw3c19" target="_blank"><h6 style="padding-left: 4.2rem;">{% trans "Contact Form"%}</h6></a>
+                        <a href="https://forms.gle/CGz39CoUpryTw3c19" target="_blank">
+                            <h6 style="padding-left: 4.2rem;">{% trans "Contact Form"%}</h6>
+                        </a>
                     </div>
                 </div>
                 <!-- <div class="col-md-6 mt-4 d-flex align-items-stretch">
@@ -650,8 +666,6 @@
     <script src="{% static 'portfolioApp/vendor/isotope-layout/isotope.pkgd.min.js' %}"></script>
     <script src="{% static 'portfolioApp/vendor/swiper/swiper-bundle.min.js' %}"></script>
     <script src="{% static 'portfolioApp/vendor/waypoints/noframework.waypoints.js' %}"></script>
-    <script src="{% static 'portfolioApp/vendor/php-email-form/validate.js' %}"></script>
-
     <!-- Template Main JS File -->
     <script src="{% static 'portfolioApp/js/main.js' %}"></script>
 
