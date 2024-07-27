@@ -28,14 +28,14 @@ SECRET_KEY = config('SECRET_KEY')
 DATABASE_URL = config('DATABASE_URL')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 
 LOCALE_PATHS = [
     BASE_DIR / 'locale',
 ]
 
-ALLOWED_HOSTS = ['.vercel.app']
+ALLOWED_HOSTS = ['.vercel.app', '127.0.0.1']
 
 
 # Application definition
@@ -80,6 +80,8 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'portfolioDeveloper.wsgi.application'
+
+# api/settings.py
 
 
 # Database
