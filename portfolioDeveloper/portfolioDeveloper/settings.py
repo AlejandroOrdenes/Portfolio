@@ -28,14 +28,14 @@ SECRET_KEY = config('SECRET_KEY')
 DATABASE_URL = config('DATABASE_URL')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 
 LOCALE_PATHS = [
     BASE_DIR / 'locale',
 ]
 
-ALLOWED_HOSTS = ['.vercel.app, ']
+ALLOWED_HOSTS = ['.vercel.app']
 
 
 # Application definition
