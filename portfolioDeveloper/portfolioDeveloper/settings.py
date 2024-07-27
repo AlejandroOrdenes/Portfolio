@@ -35,7 +35,7 @@ LOCALE_PATHS = [
     BASE_DIR / 'locale',
 ]
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['.vercel.app, ']
 
 
 # Application definition
