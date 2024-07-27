@@ -130,7 +130,7 @@ body {
     background: #18d26e;
   }
   
-  @media (max-width: 992px) {
+  @media (max-width: 1090px) {
     #header h1 {
       font-size: 36px;
     }
@@ -287,7 +287,7 @@ body {
     top: 15px;
   }
   
-  @media (max-width: 991px) {
+  @media (max-width: 1090px) {
     .mobile-nav-toggle {
       display: block;
     }
@@ -1194,4 +1194,138 @@ body {
   
   .credits a:hover {
     color: #fff;
+  }
+
+  @media (max-width: 1080px) {
+
+    #header h1 {
+      font-size: 12vw;
+    text-align: center;
+    }
+  
+    #header h2 {
+      font-size: 5vw;
+      text-align: center;
+      white-space-collapse: break-spaces;
+      line-height: 2.5;
+    }
+
+    .mobile-nav-toggle {
+      display: block;
+      font-size: 11vw;
+  }
+
+  .navbar-mobile a {
+    font-size: 7vw;
+  }
+
+  #header .social-links {
+    margin-top: 15px;
+    margin-bottom: 2vh;
+}
+
+  #header .social-links a {
+    font-size: 6vw;
+    margin-right: 5vw;
+
+  }
+  .languageButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+  }
+
+  #header .bx {
+    font-size: 4vw;
+  }
+
+  #header .translate {
+    font-size: 4vw;
+
+  }
+
+  #header.header-top {
+    height: 8vh;
+}
+
+#header.header-top .container {
+  display: flex;
+  align-items: center;
+}
+
+#header.header-top h1 {
+  font-size: 5vw;
+}
+
+section.section-show {
+  top: 12vh;
+  bottom: auto;
+  opacity: 1;
+  padding-bottom: 45px;
+}
+
+.section-title h2 {
+  font-size: 2vw;
+}
+
+.section-title p {
+  font-size: 4vw;
+}
+
+.about-me .content h3 {
+  font-size: 4vw;
+}
+
+.about-me .content p {
+  font-size: 2.5vw;
+}
+
+.skills .progress .skill {
+  font-size: 2vw;
+}
+
+.resume .resume-title {
+  font-size: 3.5vw;
+}
+
+.resume .resume-item h4 {
+  line-height: 1.3vh;
+  font-size: 2.2vw;
+}
+
+.resume .resume-item h5 {
+  font-size: 2vw;
+}
+
+.resume .resume-item em {
+  font-size: 1.7vw;
+}
+
+.resume .resume-item ul li {
+  font-size: 2.5vw;
+}
+
+.services .icon-box h4 {
+  font-size: 2.5vw;
+}
+
+.services .icon-box p {
+  line-height: 1.4vh;
+  font-size: 2vw;
+  text-align: left;
+}
+
+.contact .info-box h3 {
+  font-size: 3vw;
+}
+
+.contact .info-box .social-links a {
+  font-size: 3vw;
+}
+
+.contact .info-box h6 {
+  font-size: 2rem;
+
+}
   }
