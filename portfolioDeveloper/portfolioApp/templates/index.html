@@ -10,6 +10,9 @@
     <title>AlejandroOrdenesDEV</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
+    
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+          
 
     <link rel="apple-touch-icon" sizes="180x180" href="{% static 'portfolioApp/favicon_io/apple-touch-icon.png'%}">
     <link rel="icon" type="image/png" sizes="32x32" href="{% static 'portfolioApp/favicon_io/favicon-32x32.png'%}">
@@ -41,13 +44,13 @@
         <div class="container">
 
             <h1>Alejandro Ordenes</h1>
-            <h2 class="description">{% trans "I´m a" %} <span> {% trans "Junior Software Developer" %}</span> {% trans "from Chile" %}</h2>
+            <h2 class="description"><span> {% trans "Software Developer" %}</span></h2>
 
             <nav id="navbar" class="navbar">
                 <ul>
                     <li><a class="nav-link active" href="#header">{% trans "Home" %}</a></li>
                     <li><a class="nav-link" href="#about">{% trans "About" %}</a></li>
-                    <li><a class="nav-link" href="#resume">{% trans "Resume" %}</a></li>
+                    <!-- <li><a class="nav-link" href="#resume">{% trans "Resume" %}</a></li> -->
                     <li><a class="nav-link" href="#services">{% trans "Portfolio" %}</a></li>
                     <li style="margin-right: 1.5rem;"><a class="nav-link" href="#contact">{% trans "Contact" %}</a></li>
                 </ul>
@@ -58,8 +61,8 @@
             <div class="social-links">
                 <a href="http://www.linkedin.com/in/alejandro-ordenes/" class="linkedin" target="_blank"><i
                         class="bi bi-linkedin"></i></a>
-                <a href="http://github.com/AlejandroOrdenes" class="linkedin" target="_blank"><i
-                        class="bi bi-github"></i></a>
+                <!-- <a href="http://github.com/AlejandroOrdenes" class="linkedin" target="_blank"><i
+                        class="bi bi-github"></i></a> -->
             </div>
             <div class="languageButton">
                 <i class='bx bx-globe'></i>
@@ -84,7 +87,7 @@
 
             <div class="row">
                 <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-                    <h3>{% trans "Junior Software Developer" %}</h3>
+                    <h3>{% trans "Software Developer" %}</h3>
                     <p class="fst-italic">
                         <!-- ¡Hola! Soy Alejandro Ordenes, Analista Programador titulado de DuocUC Viña del Mar. He trabajado en proyectos tecnológicos desafiantes que han ampliado mis conocimientos técnicos y habilidades de trabajo en equipo. Algunos de mis proyectos y trabajos incluyen el desarrollo completo de una app web para análisis y simulación de arbitrage de cryptomonedas llamada ArbStrat Crypto, ademas la implementación de la interfaz grafica para una app mobile de Bigeo, entre otros proyectos. -->
 
@@ -101,16 +104,16 @@
                     <p class="fst-italic">
                         <!-- Además, mi experiencia como músico profesional, en compañías de cruceros Princess Cruises y Cunard, ha enriquecido mis habilidades de comunicación y trabajo en equipo en un entorno internacional, utilizando el inglés como idioma principal. Esta combinación única de habilidades me permite abordar proyectos con creatividad, disciplina y colaboración. -->
 
-                        {% blocktrans %} In addition, my experience as a professional musician in cruise companies
+                        <!-- {% blocktrans %} In addition, my experience as a professional musician in cruise companies
                         Princess Cruises and
                         Cunard has enriched my communication and teamwork skills in an international environment, using
                         English as the primary language. This combination of skills enables me to approach
-                        projects with creativity, discipline, and collaboration. {% endblocktrans %}
+                        projects with creativity, discipline, and collaboration. {% endblocktrans %} -->
                     </p>
-                    <p class="fst-italic">{% blocktrans %} I am excited about the opportunity to contribute as a Junior
+                    <!-- <p class="fst-italic">{% blocktrans %} I am excited about the opportunity to contribute as a Junior
                         Software
                         Developer. Please review my resume and portfolio to learn more about my projects and
-                        achievements!{% endblocktrans %}</p>
+                        achievements!{% endblocktrans %}</p> -->
                 </div>
             </div>
 
@@ -125,76 +128,80 @@
 
             <div class="row skills-content">
 
-                <div class="col-lg-6">
+                <div class="col-lg-3">
 
-                    <div class="progress">
-                        <span class="skill">HTML <i class="val">80%</i></span>
-                        <div class="progress-bar-wrap">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0"
-                                aria-valuemax="100"></div>
-                        </div>
+                    <div style="display: flex;justify-content: space-between;width: 80%;padding: 10px">
+                      
+                            <h3><span class="skill">HTML </span></h3>
+                            <h3><i class="devicon-html5-plain"></i></h3>
+                    
+                       
                     </div>
 
-                    <div class="progress">
-                        <span class="skill">CSS <i class="val">70%</i></span>
-                        <div class="progress-bar-wrap">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0"
-                                aria-valuemax="100"></div>
-                        </div>
+                    <div  style="display: flex;justify-content: space-between;width: 80%;padding: 10px">
+                        <h3><span class="skill">CSS </span></h3>
+                        <h3><i class="devicon-css3-plain"></i></h3>
+                      
                     </div>
 
-                    <div class="progress">
-                        <span class="skill">JavaScript <i class="val">50%</i></span>
-                        <div class="progress-bar-wrap">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0"
-                                aria-valuemax="100"></div>
-                        </div>
+                    <div  style="display: flex;justify-content: space-between;width: 80%;padding: 10px">
+                        <h3><span class="skill">Javascript </span></h3>
+                        <h3><i class="devicon-javascript-plain"></i></h3>
                     </div>
-                    <div class="progress">
-                        <span class="skill">Java <i class="val">40%</i></span>
-                        <div class="progress-bar-wrap">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0"
-                                aria-valuemax="100"></div>
-                        </div>
+
+                </div>
+                <div class="col-lg-3">
+
+                    <div  style="display: flex;justify-content: space-between;width: 80%;padding: 10px">
+                        <h3><span class="skill">C# </span></h3>
+                        <h3><i class="devicon-csharp-plain"></i></h3>
+                    </div>
+                    <div  style="display: flex;justify-content: space-between;width: 80%;padding: 10px">
+                        <h3><span class="skill">Python </span></h3>
+                        <h3><i class="devicon-python-plain"></i></h3>
+                    </div>
+
+
+                    <div  style="display: flex;justify-content: space-between;width: 80%;padding: 10px">
+                        <h3><span class="skill">.NET </span></h3>
+                        <h3><i class="devicon-dotnetcore-plain"></i></h3>
                     </div>
 
                 </div>
 
-                <div class="col-lg-6">
+                <div class="col-lg-3">
 
-                    <div class="progress">
-                        <span class="skill">Python <i class="val">50%</i></span>
-                        <div class="progress-bar-wrap">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0"
-                                aria-valuemax="100"></div>
-                        </div>
+                    <div  style="display: flex;justify-content: space-between;width: 80%;padding: 10px">
+                        <h3><span class="skill">Django </span></h3>
+                        <h3><i class="devicon-django-plain"></i></h3>
                     </div>
-
-
-                    <div class="progress">
-                        <span class="skill">Django <i class="val">40%</i></span>
-                        <div class="progress-bar-wrap">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0"
-                                aria-valuemax="100"></div>
-                        </div>
+                    <div  style="display: flex;justify-content: space-between;width: 80%;padding: 10px">
+                        <h3><span class="skill">React </span></h3>
+                        <h3><i class="devicon-react-plain"></i></h3>
                     </div>
-
-                    <div class="progress">
-                        <span class="skill">React <i class="val">40%</i></span>
-                        <div class="progress-bar-wrap">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0"
-                                aria-valuemax="100"></div>
-                        </div>
-                    </div>
-                    <div class="progress">
-                        <span class="skill">SpringBoot <i class="val">30%</i></span>
-                        <div class="progress-bar-wrap">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0"
-                                aria-valuemax="100"></div>
-                        </div>
+                    <div  style="display: flex;justify-content: space-between;width: 80%;padding: 10px">
+                        <h3><span class="skill">Unity </span></h3>
+                        <h3><i class="devicon-unity-plain"></i></h3>
                     </div>
 
                 </div>
+                <div class="col-lg-3">
+
+                    <div  style="display: flex;justify-content: space-between;width: 80%;padding: 10px">
+                        <h3><span class="skill">MySQL </span></h3>
+                        <h3><i class="devicon-mysql-plain"></i></h3>
+                    </div>
+                    <div  style="display: flex;justify-content: space-between;width: 80%;padding: 10px">
+                        <h3><span class="skill">PostgreSql </span></h3>
+                        <h3><i class="devicon-postgresql-plain"></i></h3>
+                    </div>
+                    <div  style="display: flex;justify-content: space-between;width: 80%;padding: 10px">
+                        <h3><span class="skill">SQLDev </span></h3>
+                        <h3><i class="devicon-sqldeveloper-plain"></i></h3>
+                    </div>
+
+                </div>
+                
 
             </div>
 
@@ -203,7 +210,7 @@
       
     </section><!-- End About Section -->
 
-    <!-- ======= Resume Section ======= -->
+    <!-- ======= Resume Section =======
     <section id="resume" class="resume">
         <div class="container">
 
@@ -233,6 +240,26 @@
                 </div>
                 <div class="col-lg-6">
                     <h3 class="resume-title">{% trans "Professional Experience"%}</h3>
+                    <div class="resume-item">
+                        <h4>{% trans "Multiplatform Videogame, First TRY!"%}</h4>
+                        <h5>{% trans "March 2024 - Present"%}</h5>
+                        <p><em>Quilpué, Chile.</em></p>
+                        <p>
+                        <ul>
+                            <li>{% blocktrans %} Multiplatform 3D skateboarding video game project. 
+                                Prototyping using Unity and C#. 
+                                Implementation of gameplay mechanics, animations, UI
+                                systems, and game logic.
+                                Backend develpment .NET
+                                {% endblocktrans %}
+                            </li>
+                            <li>{% trans "Technologies used in the project:"%}</li>
+                            <li style="list-style-type: none">- C# / Unity</li>
+                            <li style="list-style-type: none">- .NET</li>
+                            <li style="list-style-type: none">- PostgreSQL</li>
+                        </ul>
+                        </p>
+                    </div>
                     <div class="resume-item">
                         <h4>{% trans "ArbStrat Crypto, Analysis and Arbitrage Simulation "%}</h4>
                         <h5>{% trans "March 2023 - July 2023"%}</h5>
@@ -267,7 +294,7 @@
             </div>
 
         </div>
-    </section>
+    </section> -->
 
     <section id="services" class="services">
         <div class="container">
@@ -338,8 +365,8 @@
                             <!-- <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
                             <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
                             <a href="#" class="instagram"><i class="bi bi-instagram"></i></a> -->
-                            <a href="https://github.com/AlejandroOrdenes" class="google-plus" target="_blank"><i
-                                    class="bi bi-github"></i></a>
+                            <!-- <a href="https://github.com/AlejandroOrdenes" class="google-plus" target="_blank"><i
+                                    class="bi bi-github"></i></a> -->
                             <a href="https://www.linkedin.com/in/alejandro-ordenes/" class="linkedin" target="_blank"><i
                                     class="bi bi-linkedin"></i></a>
                         </div>

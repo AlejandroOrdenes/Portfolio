@@ -163,6 +163,28 @@ msgstr "Español - Nativo"
 msgid "Professional Experience"
 msgstr "Experiencia Profesional"
 
+
+#: .\portfolioApp\templates\index.html:581
+msgid "March 2024 - Present"
+msgstr "Marzo 2024 - Presente"
+
+#: .\portfolioApp\templates\index.html:228
+msgid " Multiplatform Videogame, First TRY! "
+msgstr " Videojuego Multiplataforma, First TRY! "
+
+
+#: .\portfolioApp\templates\index.html:583
+msgid ""
+" Multiplatform 3D skateboarding video game project. Prototyping using Unity and C#. "
+"Implementation of gameplay mechanics, animations, UI systems, and game logic. "
+"Backend development .NET "
+msgstr ""
+" Proyecto de videojuego de skateboarding 3D multiplataforma. Prototipado usando Unity y C#. "
+"Implementación de mecánicas de juego, animaciones, sistemas de UI y lógica de juego. "
+"Desarrollo de backend .NET "
+
+
+
 #: .\portfolioApp\templates\index.html:496
 msgid "ArbStrat Crypto, Analysis and Arbitrage Simulation "
 msgstr "ArbStrat Crypto, Análisis y Simulación de Arbitraje"
@@ -266,3 +288,10 @@ msgstr "Inglés"
 #: .\portfolioDeveloper\settings.py:129
 msgid "Spanish"
 msgstr "Español"
+
+
+
+
+
+
+
