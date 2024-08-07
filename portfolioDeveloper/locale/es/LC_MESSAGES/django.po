@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-14 13:25-0300\n"
+"POT-Creation-Date: 2024-08-06 19:54-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,80 +16,64 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-
-#: .\portfolioApp\templates\index.html:44
-msgid "I´m a"
-msgstr "Soy"
-
-#: .\portfolioApp\templates\index.html:44
-#: .\portfolioApp\templates\index.html:90
-msgid "Junior Software Developer"
-msgstr "Desarrollador de Software Junior"
-
-#: .\portfolioApp\templates\index.html:44
-msgid "from Chile"
-msgstr "de Chile"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? "
+"1 : 2;\n"
 
 #: .\portfolioApp\templates\index.html:48
+#: .\portfolioApp\templates\index.html:88
+msgid "Software Developer"
+msgstr "Desarrollador de Software"
+
+#: .\portfolioApp\templates\index.html:52
 msgid "Home"
 msgstr "Inicio"
 
-#: .\portfolioApp\templates\index.html:49
-#: .\portfolioApp\templates\index.html:81
-msgid "About"
-msgstr "Acerca de mí"
-
-#: .\portfolioApp\templates\index.html:50
-#: .\portfolioApp\templates\index.html:470
-msgid "Resume"
-msgstr "Currículum"
-
-#: .\portfolioApp\templates\index.html:51
-#: .\portfolioApp\templates\index.html:535
+#: .\portfolioApp\templates\index.html:53
+#: .\portfolioApp\templates\index.html:299
 msgid "Portfolio"
 msgstr "Portafolio"
 
-#: .\portfolioApp\templates\index.html:52
-#: .\portfolioApp\templates\index.html:578
+#: .\portfolioApp\templates\index.html:54
+#: .\portfolioApp\templates\index.html:82
+msgid "About"
+msgstr "Sobre mí"
+
+#: .\portfolioApp\templates\index.html:57
+#: .\portfolioApp\templates\index.html:214
+msgid "Resume"
+msgstr "Currículum"
+
+#: .\portfolioApp\templates\index.html:59
+#: .\portfolioApp\templates\index.html:342
 msgid "Contact"
 msgstr "Contacto"
 
-#: .\portfolioApp\templates\index.html:82
+#: .\portfolioApp\templates\index.html:83
 msgid "Learn more about me"
 msgstr "Conoce más sobre mí"
 
-#: .\portfolioApp\templates\index.html:94
+#: .\portfolioApp\templates\index.html:92
 msgid ""
 " Hello! I am a Computer Programmer with a degree from DuocUC Viña del Mar,\n"
 "                        Chile. "
 msgstr ""
-"¡Hola! Soy Analista Programador titulado de DuocUC Viña del Mar,\n"
+" ¡Hola! Soy Analista Programador titulado de DuocUC Viña del Mar,\n"
 "                        Chile. "
 
-#: .\portfolioApp\templates\index.html:98
+#: .\portfolioApp\templates\index.html:96
 msgid ""
-" I have worked on challenging technological projects that have\n"
-"                        expanded my\n"
-"                        technical knowledge and teamwork skills. Some of my "
-"projects and works include the complete\n"
-"                        development of a web app for the analysis and "
-"simulation of cryptocurrency arbitrage called\n"
-"                        ArbStrat Crypto, as well as the implementation of "
-"the graphical interface for a mobile app\n"
-"                        called Bigeo, among other projects."
+" I specialize in software development, providing efficient technological "
+"solutions. My goal is to develop software that delivers real value to users "
+"and clients, utilizing best practices and available technologies. I am self-"
+"taught and always seeking new challenges and opportunities to expand my "
+"knowledge and skills."
 msgstr ""
-" He trabajado en desafiantes proyectos tecnológicos que han\n"
-"                        ampliado mis\n"
-"                        conocimientos técnicos y habilidades de trabajo en "
-"equipo. Algunos de mis proyectos y trabajos incluyen el desarrollo completo\n"
-"                        de una aplicación web para el análisis y simulación "
-"de arbitraje de criptomonedas llamada\n"
-"                        ArbStrat Crypto, así como la implementación de la "
-"interfaz gráfica para una aplicación móvil\n"
-"                        para Bigeo, entre otros proyectos."
+"Me especializo en el desarrollo de software, aportando soluciones tecnológicas eficientes. Mi objetivo es desarrollar \n"
+"software que aporte valor real a los usuarios y clientes, utilizando las mejores prácticas y tecnologías disponibles. \n"
+"Soy autodidacta y siempre estoy en busca de nuevos desafíos y oportunidades para expandir mis \n"
+"conocimientos y habilidades."
 
-#: .\portfolioApp\templates\index.html:107
+#: .\portfolioApp\templates\index.html:100
 msgid ""
 " In addition, my experience as a professional musician in cruise companies\n"
 "                        Princess Cruises and\n"
@@ -100,17 +84,14 @@ msgid ""
 "                        projects with creativity, discipline, and "
 "collaboration. "
 msgstr ""
-" Además, mi experiencia como músico profesional en las compañías de "
-"cruceros\n"
+" Además, mi experiencia como músico profesional en compañías de cruceros\n"
 "                        Princess Cruises y\n"
-"                        Cunard ha enriquecido mis habilidades de "
-"comunicación y trabajo en equipo en un entorno internacional, utilizando\n"
-"                        el inglés como idioma principal. Esta combinación de "
-"habilidades me permite abordar\n"
-"                        proyectos con creatividad, disciplina y "
-"colaboración. "
+"                        Cunard ha enriquecido mis habilidades de comunicación y trabajo en equipo en un entorno internacional, utilizando\n"
+"                        el inglés como idioma principal. Esta combinación de habilidades me permite abordar\n"
+"                        proyectos con creatividad, disciplina y\n"
+"                        colaboración. "
 
-#: .\portfolioApp\templates\index.html:113
+#: .\portfolioApp\templates\index.html:106
 msgid ""
 " I am excited about the opportunity to contribute as a Junior\n"
 "                        Software\n"
@@ -118,119 +99,121 @@ msgid ""
 "learn more about my projects and\n"
 "                        achievements!"
 msgstr ""
-" Estoy emocionado por la oportunidad de contribuir como un\n"
-"                        Desarrollador de Software Junior. ¡Por favor, revisa "
-"mi currículum y portafolio para\n"
-"                        conocer más sobre mis proyectos y logros!"
+" Estoy entusiasmado con la oportunidad de contribuir como Desarrollador de\n"
+"                        Software Junior. ¡Por favor, revisa mi currículum y portafolio para conocer más sobre mis proyectos y\n"
+"                        logros!"
 
-#: .\portfolioApp\templates\index.html:205
+#: .\portfolioApp\templates\index.html:119
 msgid "Skills"
 msgstr "Habilidades"
 
-#: .\portfolioApp\templates\index.html:471
+#: .\portfolioApp\templates\index.html:215
 msgid "Check My Resume"
-msgstr "Ver mi Currículum"
+msgstr "Revisa Mi Currículum"
 
-#: .\portfolioApp\templates\index.html:476
+#: .\portfolioApp\templates\index.html:220
 msgid "Education"
 msgstr "Educación"
 
-#: .\portfolioApp\templates\index.html:478
+#: .\portfolioApp\templates\index.html:222
 msgid "Computational Programmer Analyst"
 msgstr "Analista Programador Computacional"
 
-#: .\portfolioApp\templates\index.html:479
+#: .\portfolioApp\templates\index.html:223
 msgid "March 2021 - July 2023"
 msgstr "Marzo 2021 - Julio 2023"
 
-#: .\portfolioApp\templates\index.html:484
+#: .\portfolioApp\templates\index.html:228
 msgid "February 2022"
 msgstr "Febrero 2022"
 
-#: .\portfolioApp\templates\index.html:487
+#: .\portfolioApp\templates\index.html:231
 msgid "Languages"
 msgstr "Idiomas"
 
-#: .\portfolioApp\templates\index.html:489
+#: .\portfolioApp\templates\index.html:233
 msgid "English - B1"
 msgstr "Inglés - B1"
 
-#: .\portfolioApp\templates\index.html:490
+#: .\portfolioApp\templates\index.html:234
 msgid "Spanish - Native"
 msgstr "Español - Nativo"
 
-#: .\portfolioApp\templates\index.html:494
+#: .\portfolioApp\templates\index.html:238
 msgid "Professional Experience"
 msgstr "Experiencia Profesional"
 
+#: .\portfolioApp\templates\index.html:240
+msgid "Multiplatform Videogame, First TRY!"
+msgstr "Videojuego Multiplataforma, First TRY!"
 
-#: .\portfolioApp\templates\index.html:581
+#: .\portfolioApp\templates\index.html:241
 msgid "March 2024 - Present"
 msgstr "Marzo 2024 - Presente"
 
-#: .\portfolioApp\templates\index.html:228
-msgid " Multiplatform Videogame, First TRY! "
-msgstr " Videojuego Multiplataforma, First TRY! "
-
-
-#: .\portfolioApp\templates\index.html:583
+#: .\portfolioApp\templates\index.html:245
 msgid ""
-" Multiplatform 3D skateboarding video game project. Prototyping using Unity and C#. "
-"Implementation of gameplay mechanics, animations, UI systems, and game logic. "
-"Backend development .NET "
+" Multiplatform 3D skateboarding video game project. \n"
+"                                Prototyping using Unity and C#. \n"
+"                                Implementation of gameplay mechanics, "
+"animations, UI\n"
+"                                systems, and game logic.\n"
+"                                Backend develpment .NET\n"
+"                                "
 msgstr ""
-" Proyecto de videojuego de skateboarding 3D multiplataforma. Prototipado usando Unity y C#. "
-"Implementación de mecánicas de juego, animaciones, sistemas de UI y lógica de juego. "
-"Desarrollo de backend .NET "
+" Proyecto de videojuego de skateboarding 3D multiplataforma. \n"
+"                                Prototipo usando Unity y C#. \n"
+"                                Implementación de mecánicas de juego, animaciones, UI\n"
+"                                sistemas y lógica del juego.\n"
+"                                Desarrollo backend .NET\n"
+"                                "
 
+#: .\portfolioApp\templates\index.html:252
+#: .\portfolioApp\templates\index.html:267
+#: .\portfolioApp\templates\index.html:281
+msgid "Technologies used in the project:"
+msgstr "Tecnologías usadas en el proyecto:"
 
-
-#: .\portfolioApp\templates\index.html:496
+#: .\portfolioApp\templates\index.html:260
 msgid "ArbStrat Crypto, Analysis and Arbitrage Simulation "
-msgstr "ArbStrat Crypto, Análisis y Simulación de Arbitraje"
+msgstr "ArbStrat Crypto, Análisis y Simulación de Arbitraje "
 
-#: .\portfolioApp\templates\index.html:497
+#: .\portfolioApp\templates\index.html:261
 msgid "March 2023 - July 2023"
 msgstr "Marzo 2023 - Julio 2023"
 
-#: .\portfolioApp\templates\index.html:501
+#: .\portfolioApp\templates\index.html:265
 msgid ""
 " Development of a Web Application to find arbitrage opportunities with "
 "cryptocurrencies, taking real-time price data from the Dydx API. An API was "
 "created for data handling and processing."
 msgstr ""
-" Desarrollo de una aplicación web para encontrar oportunidades de arbitraje "
-"con criptomonedas, tomando datos de precios en tiempo real de la API de "
-"Dydx. Se creó una API para el manejo y procesamiento de datos. "
+" Desarrollo de una aplicación web para encontrar oportunidades de arbitraje con criptomonedas, tomando datos de precios en tiempo real de la API de Dydx. Se creó una API para el manejo y procesamiento de datos."
 
-#: .\portfolioApp\templates\index.html:503
-#: .\portfolioApp\templates\index.html:517
-msgid "Technologies used in the project:"
-msgstr "Tecnologías utilizadas en el proyecto:"
-
-#: .\portfolioApp\templates\index.html:511
+#: .\portfolioApp\templates\index.html:275
 msgid "Bigeo, Mobile App"
 msgstr "Bigeo, Aplicación Móvil"
 
-#: .\portfolioApp\templates\index.html:512
+#: .\portfolioApp\templates\index.html:276
 msgid "September 2022 - December 2022"
 msgstr "Septiembre 2022 - Diciembre 2022"
 
-#: .\portfolioApp\templates\index.html:516
+#: .\portfolioApp\templates\index.html:280
 msgid ""
 "Development of a mobile application for the control of fruit tree "
 "plantations."
-msgstr "Desarrollo de una aplicación móvil para el control de plantaciones de árboles frutales."
+msgstr ""
+"Desarrollo de una aplicación móvil para el control de plantaciones de árboles frutales."
 
-#: .\portfolioApp\templates\index.html:536
+#: .\portfolioApp\templates\index.html:300
 msgid "My Proyects"
 msgstr "Mis Proyectos"
 
-#: .\portfolioApp\templates\index.html:543
+#: .\portfolioApp\templates\index.html:307
 msgid "ArbStrat Crypto"
 msgstr "ArbStrat Crypto"
 
-#: .\portfolioApp\templates\index.html:544
+#: .\portfolioApp\templates\index.html:308
 msgid ""
 " Web application that seeks cryptocurrency pairs\n"
 "                            for arbitrage operations. It is based on a "
@@ -239,12 +222,10 @@ msgid ""
 "arbitrage opportunities."
 msgstr ""
 " Aplicación web que busca pares de criptomonedas\n"
-"                            para operaciones de arbitraje. Se basa en una "
-"estrategia de pares cointegrados y cálculos\n"
-"                            de diferentes métricas para buscar oportunidades "
-"favorables de arbitraje."
+"                            para operaciones de arbitraje. Se basa en una estrategia de pares cointegrados y cálculos\n"
+"                            de diferentes métricas para buscar oportunidades de arbitraje favorables."
 
-#: .\portfolioApp\templates\index.html:554
+#: .\portfolioApp\templates\index.html:318
 msgid ""
 " Mobile application for the control and\n"
 "                            management of agricultural fields. Forms, "
@@ -252,46 +233,37 @@ msgid ""
 "                            application "
 msgstr ""
 " Aplicación móvil para el control y\n"
-"                            gestión de campos agrícolas. Formularios, rutas "
-"y más se registran a través de la aplicación móvil."
+"                            gestión de campos agrícolas. Formularios, rutas y más se registran a través de la aplicación móvil "
 
-#: .\portfolioApp\templates\index.html:564
+#: .\portfolioApp\templates\index.html:328
 msgid ""
 " Website for the sale of gardening supplies. It\n"
 "                            features shopping carts, user management, among "
 "other functionalities."
 msgstr ""
-" Sitio web para la venta de suministros de jardinería. Cuenta con\n"
-"                            carritos de compras, gestión de usuarios, entre "
-"otras funcionalidades."
+" Sitio web para la venta de suministros de jardinería. \n"
+"                            Cuenta con carritos de compra, gestión de usuarios, entre otras funcionalidades."
 
-#: .\portfolioApp\templates\index.html:579
+#: .\portfolioApp\templates\index.html:343
 msgid "Contact Me"
 msgstr "Contáctame"
 
-#: .\portfolioApp\templates\index.html:595
+#: .\portfolioApp\templates\index.html:359
 msgid "Social Profiles"
 msgstr "Perfiles Sociales"
 
-#: .\portfolioApp\templates\index.html:611
-msgid "Email Me"
-msgstr "Envíame un Correo Electrónico"
+#: .\portfolioApp\templates\index.html:375
+msgid "Email"
+msgstr "Correo Electrónico"
 
-#: .\portfolioApp\templates\index.html:613
-msgid "Contact Form"
-msgstr "Formulario de Contacto"
+#: .\portfolioApp\templates\index.html:377
+msgid "contacto@aordenes.com"
+msgstr "contacto@aordenes.com"
 
-#: .\portfolioDeveloper\settings.py:128
+#: .\portfolioDeveloper\settings.py:133
 msgid "English"
 msgstr "Inglés"
 
-#: .\portfolioDeveloper\settings.py:129
+#: .\portfolioDeveloper\settings.py:134
 msgid "Spanish"
 msgstr "Español"
-
-
-
-
-
-
-

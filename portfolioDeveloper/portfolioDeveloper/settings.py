@@ -35,7 +35,7 @@ LOCALE_PATHS = [
     BASE_DIR / 'locale',
 ]
 
-ALLOWED_HOSTS = ['aordenes.com', 'www.aordenes.com', '64.176.10.47' '127.0.0.1']
+ALLOWED_HOSTS = ['aordenes.com', 'www.aordenes.com', '64.176.10.47', '127.0.0.1']
 
 
 # Application definition
@@ -122,7 +122,7 @@ LANGUAGE_CODE = 'en-us'
 TIME_ZONE = 'UTC'
 
 USE_I18N = True
-
+USE_L10N = True
 USE_TZ = True
 
 

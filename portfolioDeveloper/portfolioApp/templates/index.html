@@ -39,7 +39,8 @@
 <body>
 
     <!-- ======= Header ======= -->
-    <header id="header">
+     
+    <header id="header" class="header-top">
 
         <div class="container">
 
@@ -48,22 +49,19 @@
 
             <nav id="navbar" class="navbar">
                 <ul>
-                    <li><a class="nav-link active" href="#header">{% trans "Home" %}</a></li>
-                    <li><a class="nav-link" href="#about">{% trans "About" %}</a></li>
-                    <!-- <li><a class="nav-link" href="#resume">{% trans "Resume" %}</a></li> -->
+                    <!-- <li><a class="nav-link active" href="#header">{% trans "Home" %}</a></li> -->
                     <li><a class="nav-link" href="#services">{% trans "Portfolio" %}</a></li>
+                    <li><a class="nav-link" href="#about">{% trans "About" %}</a></li>
+                    
+                    
+                    <!-- <li><a class="nav-link" href="#resume">{% trans "Resume" %}</a></li> -->
+                    
                     <li style="margin-right: 1.5rem;"><a class="nav-link" href="#contact">{% trans "Contact" %}</a></li>
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
 
             </nav>
 
-            <div class="social-links">
-                <a href="http://www.linkedin.com/in/alejandro-ordenes/" class="linkedin" target="_blank"><i
-                        class="bi bi-linkedin"></i></a>
-                <!-- <a href="http://github.com/AlejandroOrdenes" class="linkedin" target="_blank"><i
-                        class="bi bi-github"></i></a> -->
-            </div>
             <div class="languageButton">
                 <i class='bx bx-globe'></i>
                 </a>
@@ -95,12 +93,7 @@
                         Chile. {% endblocktrans %}
 
                     </p>
-                    <p class="fst-italic">{% blocktrans %} I have worked on challenging technological projects that have
-                        expanded my
-                        technical knowledge and teamwork skills. Some of my projects and works include the complete
-                        development of a web app for the analysis and simulation of cryptocurrency arbitrage called
-                        ArbStrat Crypto, as well as the implementation of the graphical interface for a mobile app
-                        called Bigeo, among other projects.{% endblocktrans %}</p>
+                    <p class="fst-italic">{% blocktrans %} I specialize in software development, providing efficient technological solutions. My goal is to develop software that delivers real value to users and clients, utilizing best practices and available technologies. I am self-taught and always seeking new challenges and opportunities to expand my knowledge and skills.{% endblocktrans %}</p>
                     <p class="fst-italic">
                         <!-- Además, mi experiencia como músico profesional, en compañías de cruceros Princess Cruises y Cunard, ha enriquecido mis habilidades de comunicación y trabajo en equipo en un entorno internacional, utilizando el inglés como idioma principal. Esta combinación única de habilidades me permite abordar proyectos con creatividad, disciplina y colaboración. -->
 
@@ -130,17 +123,17 @@
 
                 <div class="col-lg-3">
 
-                    <div style="display: flex;justify-content: space-between;width: 80%;padding: 10px">
+                    <!-- <div style="display: flex;justify-content: space-between;width: 80%;padding: 10px">
                       
                             <h3><span class="skill">HTML </span></h3>
                             <h3><i class="devicon-html5-plain"></i></h3>
                     
                        
-                    </div>
+                    </div> -->
 
                     <div  style="display: flex;justify-content: space-between;width: 80%;padding: 10px">
-                        <h3><span class="skill">CSS </span></h3>
-                        <h3><i class="devicon-css3-plain"></i></h3>
+                        <h3><span class="skill">Java</span></h3>
+                        <h3><i class="devicon-java-plain"></i></h3>
                       
                     </div>
 
@@ -148,14 +141,15 @@
                         <h3><span class="skill">Javascript </span></h3>
                         <h3><i class="devicon-javascript-plain"></i></h3>
                     </div>
-
-                </div>
-                <div class="col-lg-3">
-
                     <div  style="display: flex;justify-content: space-between;width: 80%;padding: 10px">
                         <h3><span class="skill">C# </span></h3>
                         <h3><i class="devicon-csharp-plain"></i></h3>
                     </div>
+
+                </div>
+                <div class="col-lg-3">
+
+                    
                     <div  style="display: flex;justify-content: space-between;width: 80%;padding: 10px">
                         <h3><span class="skill">Python </span></h3>
                         <h3><i class="devicon-python-plain"></i></h3>
@@ -163,18 +157,19 @@
 
 
                     <div  style="display: flex;justify-content: space-between;width: 80%;padding: 10px">
-                        <h3><span class="skill">.NET </span></h3>
-                        <h3><i class="devicon-dotnetcore-plain"></i></h3>
+                        <h3><span class="skill">SpringBoot </span></h3>
+                        <h3><i class="devicon-spring-plain"></i></h3>
+                    </div>
+                    <div  style="display: flex;justify-content: space-between;width: 80%;padding: 10px">
+                        <h3><span class="skill">Django </span></h3>
+                        <h3><i class="devicon-django-plain"></i></h3>
                     </div>
 
                 </div>
 
                 <div class="col-lg-3">
 
-                    <div  style="display: flex;justify-content: space-between;width: 80%;padding: 10px">
-                        <h3><span class="skill">Django </span></h3>
-                        <h3><i class="devicon-django-plain"></i></h3>
-                    </div>
+                   
                     <div  style="display: flex;justify-content: space-between;width: 80%;padding: 10px">
                         <h3><span class="skill">React </span></h3>
                         <h3><i class="devicon-react-plain"></i></h3>
@@ -183,14 +178,15 @@
                         <h3><span class="skill">Unity </span></h3>
                         <h3><i class="devicon-unity-plain"></i></h3>
                     </div>
-
-                </div>
-                <div class="col-lg-3">
-
                     <div  style="display: flex;justify-content: space-between;width: 80%;padding: 10px">
                         <h3><span class="skill">MySQL </span></h3>
                         <h3><i class="devicon-mysql-plain"></i></h3>
                     </div>
+
+                </div>
+                <div class="col-lg-3">
+
+                    
                     <div  style="display: flex;justify-content: space-between;width: 80%;padding: 10px">
                         <h3><span class="skill">PostgreSql </span></h3>
                         <h3><i class="devicon-postgresql-plain"></i></h3>
@@ -296,44 +292,73 @@
         </div>
     </section> -->
 
-    <section id="services" class="services">
+    <section id="services" class="services section-show">
         <div class="container">
 
             <div class="section-title">
                 <h2>{% trans "Portfolio"%}</h2>
                 <p>{% trans "My Proyects" %}</p>
             </div>
+            <div class="section-title">
+                <h2>{% trans "ArbStrat"%}</h2>
+            </div>
 
             <div class="row">
                 <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
                     <div class="icon-box">
                         <div class="icon"><i class="bx bxs-chart"></i></div>
-                        <h4><a href="">{% trans "ArbStrat Crypto"%}</a></h4>
+                        <h4><a href="https://arbstrat.aordenes.com/" target="_blank">{% trans "ArbStrat Crypto"%}</a></h4>
                         <p>{% blocktrans %} Web application that seeks cryptocurrency pairs
                             for arbitrage operations. It is based on a strategy of cointegrated pairs and calculations
-                            of different metrics to search for favorable arbitrage opportunities.{% endblocktrans %}</p>
+                            of different metrics to search for favorable arbitrage opportunities. {% endblocktrans %}</p>
+                            <br>
+                            <ul>
+                                <li>Python / Django</li>
+                                <li>JavaScript / React</li>
+                                <li>PostgreSQL</li>
+                                <li>Nginx</li>
+                            </ul>
+                            
+                            <h6><a href="https://arbstrat.aordenes.com/" target="_blank">arbstrat.aordenes.com</a></h6>
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+                <div class="col-md-8 d-flex align-items-stretch">
                     <div class="icon-box">
-                        <div class="icon"><i class="bx bxs-tree"></i></div>
-                        <h4><a href="http://bigeo.cl/" target="_blank">Bigeo</a></h4>
-                        <p>{% blocktrans %} Mobile application for the control and
-                            management of agricultural fields. Forms, routes, and more are recorded through the mobile
-                            application {% endblocktrans %}</p>
+                        <img src="../static/portfolioApp/images/arbstratJPG.png" alt="arbstratJpg" style="width: 100%; height: 100%; object-fit: contain;">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="container">
+
+            <div class="section-title">
+                <h2>{% trans "First Try!"%}</h2>
+                
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+                    <div class="icon-box">
+                        <div class="icon"><i class='bx bx-game' ></i></div>
+                        <h4><a href="https://arbstrat.aordenes.com/" target="_blank">{% trans "First Try! "%}</a></h4>
+                        <p>{% blocktrans %} Prototype of a skateboarding video game, developed in Unity 3D. Project in development.{% endblocktrans %}</p>
+                        <br>
+                        <ul>
+                            <li>C# / Unity</li>
+                        </ul>
+                            
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
+                <div class="col-md-8 d-flex align-items-stretch">
                     <div class="icon-box">
-                        <div class="icon"><i class="bx bxs-florist"></i></div>
-                        <h4><a href="">Tu Jardin</a></h4>
-                        <p>{% blocktrans %} Website for the sale of gardening supplies. It
-                            features shopping carts, user management, among other functionalities.{% endblocktrans %}
-                        </p>
+                        <iframe width="675" height="315" src="https://www.youtube.com/embed/h_BHpuiR37s?si=IvTkmcME156ePn3s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
                 </div>
+
             </div>
 
         </div>
@@ -376,10 +401,10 @@
                 <div class="col-md-6 mt-4 d-flex align-items-stretch">
                     <div class="info-box">
                         <i class="bx bx-envelope"></i>
-                        <h3>{% trans "Email Me"%}</h3>
-                        <a href="https://forms.gle/CGz39CoUpryTw3c19" target="_blank">
-                            <h6 style="padding-left: 4.2rem;">{% trans "Contact Form"%}</h6>
-                        </a>
+                        <h3>{% trans "Email"%}</h3>
+                        <!-- <a href="https://forms.gle/CGz39CoUpryTw3c19" target="_blank"> -->
+                            <h6 style="padding-left: 4.2rem;">{% trans "contacto@aordenes.com"%}</h6>
+                        <!-- </a> -->
                     </div>
                 </div>
                 <!-- <div class="col-md-6 mt-4 d-flex align-items-stretch">
