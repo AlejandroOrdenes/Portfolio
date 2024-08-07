@@ -11,12 +11,13 @@
 
 --------------------------------------------------------------*/
 
-body {
+body, html {
     font-family: "Open Sans", sans-serif;
     background-color: #040404;
     color: #fff;
     position: relative;
     background: transparent;
+    height: 100%;
   }
   
   body::before {
@@ -156,8 +157,8 @@ body {
   
   /* Header Top */
   #header.header-top {
-    height: 80px;
     position: fixed;
+    height: 80px;
     left: 0;
     top: 0;
     right: 0;
@@ -195,6 +196,15 @@ body {
   
     #header.header-top h1 {
       font-size: 26px;
+      margin-right: 0;
+    }
+
+    .services .icon-box {
+      text-align: left;
+      background: rgba(204, 204, 204, 0.1);
+      padding: 30px 20px;
+      transition: all ease-in-out 0.3s;
+      width: 100%;
     }
   }
   
@@ -287,6 +297,8 @@ body {
     right: 15px;
     top: 15px;
   }
+
+  
   
   @media (max-width: 1090px) {
     .mobile-nav-toggle {
@@ -701,13 +713,15 @@ body {
   /*--------------------------------------------------------------
   # Services
   --------------------------------------------------------------*/
-  .services .icon-box {
-    text-align: left;
-    background: rgba(204, 204, 204, 0.1);
-    padding: 80px 20px;
-    transition: all ease-in-out 0.3s;
+  @media (min-width: 768px) {
+    .services .icon-box {
+      text-align: left;
+      background: rgba(204, 204, 204, 0.1);
+      padding: 80px 20px;
+      transition: all ease-in-out 0.3s;
+      width: 100%;
+    }
   }
-
   
   .services .icon-box .icon {
     margin: 0 auto;
@@ -1249,6 +1263,7 @@ body {
 
   #header.header-top {
     height: 8vh;
+    position: fixed;
 }
 
 #header.header-top .container {
@@ -1326,10 +1341,10 @@ section.section-show {
   font-size: 3vw;
 }
 
-.contact .info-box h6 {
+/* .contact .info-box h6 {
   font-size: 2rem;
 
-}
+} */
 
   }
 
@@ -1343,14 +1358,17 @@ section.section-show {
   
   .video-container {
     position: relative;
-    padding-bottom: 56.25%; /* 16:9 ratio */
-    padding-top: 25px;
-    height: 0;
-}
-.video-container iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
-    height: 100%;
+    padding-bottom: 56.25%; /* Proporción de 16:9 */
+    height: 0;
+    overflow: hidden;
 }
+
+  .video-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
+  }

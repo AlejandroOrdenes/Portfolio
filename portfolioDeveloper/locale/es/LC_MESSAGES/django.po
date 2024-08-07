@@ -1,17 +1,17 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# ALGÚN TÍTULO DESCRIPTIVO
+# Copyright (C) AÑO DEL TITULAR DEL COPYRIGHT DEL PAQUETE
+# Este archivo se distribuye bajo la misma licencia que el paquete PACKAGE.
+# PRIMER AUTOR <EMAIL@ADDRESS>, AÑO.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: VERSIÓN DEL PAQUETE\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-06 19:54-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2024-08-07 11:21-0400\n"
+"PO-Revision-Date: AÑO-MO-DA HO:MI+ZONE\n"
+"Last-Translator: NOMBRE COMPLETO <EMAIL@ADDRESS>\n"
+"Language-Team: IDIOMA <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -36,7 +36,7 @@ msgstr "Portafolio"
 #: .\portfolioApp\templates\index.html:54
 #: .\portfolioApp\templates\index.html:82
 msgid "About"
-msgstr "Sobre mí"
+msgstr "Acerca de"
 
 #: .\portfolioApp\templates\index.html:57
 #: .\portfolioApp\templates\index.html:214
@@ -44,7 +44,7 @@ msgid "Resume"
 msgstr "Currículum"
 
 #: .\portfolioApp\templates\index.html:59
-#: .\portfolioApp\templates\index.html:342
+#: .\portfolioApp\templates\index.html:371
 msgid "Contact"
 msgstr "Contacto"
 
@@ -57,7 +57,7 @@ msgid ""
 " Hello! I am a Computer Programmer with a degree from DuocUC Viña del Mar,\n"
 "                        Chile. "
 msgstr ""
-" ¡Hola! Soy Analista Programador titulado de DuocUC Viña del Mar,\n"
+" ¡Hola! Soy un Programador Computacional titulado en DuocUC Viña del Mar,\n"
 "                        Chile. "
 
 #: .\portfolioApp\templates\index.html:96
@@ -68,10 +68,11 @@ msgid ""
 "taught and always seeking new challenges and opportunities to expand my "
 "knowledge and skills."
 msgstr ""
-"Me especializo en el desarrollo de software, aportando soluciones tecnológicas eficientes. Mi objetivo es desarrollar \n"
-"software que aporte valor real a los usuarios y clientes, utilizando las mejores prácticas y tecnologías disponibles. \n"
-"Soy autodidacta y siempre estoy en busca de nuevos desafíos y oportunidades para expandir mis \n"
-"conocimientos y habilidades."
+" Me especializo en el desarrollo de software, proporcionando soluciones "
+"tecnológicas eficientes. Mi objetivo es desarrollar software que ofrezca un "
+"valor real a los usuarios y clientes, utilizando las mejores prácticas y "
+"tecnologías disponibles. Soy autodidacta y siempre busco nuevos desafíos y "
+"oportunidades para expandir mis conocimientos y habilidades."
 
 #: .\portfolioApp\templates\index.html:100
 msgid ""
@@ -86,10 +87,11 @@ msgid ""
 msgstr ""
 " Además, mi experiencia como músico profesional en compañías de cruceros\n"
 "                        Princess Cruises y\n"
-"                        Cunard ha enriquecido mis habilidades de comunicación y trabajo en equipo en un entorno internacional, utilizando\n"
-"                        el inglés como idioma principal. Esta combinación de habilidades me permite abordar\n"
-"                        proyectos con creatividad, disciplina y\n"
-"                        colaboración. "
+"                        Cunard ha enriquecido mis habilidades de comunicación "
+"y trabajo en equipo en un entorno internacional, utilizando\n"
+"                        el inglés como idioma principal. Esta combinación de "
+"habilidades me permite abordar\n"
+"                        proyectos con creatividad, disciplina y colaboración. "
 
 #: .\portfolioApp\templates\index.html:106
 msgid ""
@@ -99,9 +101,11 @@ msgid ""
 "learn more about my projects and\n"
 "                        achievements!"
 msgstr ""
-" Estoy entusiasmado con la oportunidad de contribuir como Desarrollador de\n"
-"                        Software Junior. ¡Por favor, revisa mi currículum y portafolio para conocer más sobre mis proyectos y\n"
-"                        logros!"
+" Estoy entusiasmado con la oportunidad de contribuir como Desarrollador\n"
+"                        Junior de Software.\n"
+"                        Por favor, revisa mi currículum y portafolio para "
+"saber más sobre mis proyectos y\n"
+"                        logros."
 
 #: .\portfolioApp\templates\index.html:119
 msgid "Skills"
@@ -145,7 +149,7 @@ msgstr "Experiencia Profesional"
 
 #: .\portfolioApp\templates\index.html:240
 msgid "Multiplatform Videogame, First TRY!"
-msgstr "Videojuego Multiplataforma, First TRY!"
+msgstr "Videojuego Multiplataforma, ¡Primer Intento!"
 
 #: .\portfolioApp\templates\index.html:241
 msgid "March 2024 - Present"
@@ -161,18 +165,19 @@ msgid ""
 "                                Backend develpment .NET\n"
 "                                "
 msgstr ""
-" Proyecto de videojuego de skateboarding 3D multiplataforma. \n"
-"                                Prototipo usando Unity y C#. \n"
-"                                Implementación de mecánicas de juego, animaciones, UI\n"
-"                                sistemas y lógica del juego.\n"
-"                                Desarrollo backend .NET\n"
+" Proyecto de videojuego 3D de skateboarding multiplataforma. \n"
+"                                Prototipado usando Unity y C#. \n"
+"                                Implementación de mecánicas de juego, "
+"animaciones, sistemas de\n"
+"                                UI y lógica del juego.\n"
+"                                Desarrollo backend con .NET\n"
 "                                "
 
 #: .\portfolioApp\templates\index.html:252
 #: .\portfolioApp\templates\index.html:267
 #: .\portfolioApp\templates\index.html:281
 msgid "Technologies used in the project:"
-msgstr "Tecnologías usadas en el proyecto:"
+msgstr "Tecnologías utilizadas en el proyecto:"
 
 #: .\portfolioApp\templates\index.html:260
 msgid "ArbStrat Crypto, Analysis and Arbitrage Simulation "
@@ -188,7 +193,9 @@ msgid ""
 "cryptocurrencies, taking real-time price data from the Dydx API. An API was "
 "created for data handling and processing."
 msgstr ""
-" Desarrollo de una aplicación web para encontrar oportunidades de arbitraje con criptomonedas, tomando datos de precios en tiempo real de la API de Dydx. Se creó una API para el manejo y procesamiento de datos."
+" Desarrollo de una Aplicación Web para encontrar oportunidades de arbitraje "
+"con criptomonedas, tomando datos de precios en tiempo real de la API de "
+"Dydx. Se creó una API para el manejo y procesamiento de datos."
 
 #: .\portfolioApp\templates\index.html:275
 msgid "Bigeo, Mobile App"
@@ -203,60 +210,57 @@ msgid ""
 "Development of a mobile application for the control of fruit tree "
 "plantations."
 msgstr ""
-"Desarrollo de una aplicación móvil para el control de plantaciones de árboles frutales."
+"Desarrollo de una aplicación móvil para el control de plantaciones de árboles "
+"frutales."
 
 #: .\portfolioApp\templates\index.html:300
 msgid "My Proyects"
 msgstr "Mis Proyectos"
 
-#: .\portfolioApp\templates\index.html:307
+#: .\portfolioApp\templates\index.html:303
+msgid "ArbStrat"
+msgstr "ArbStrat"
+
+#: .\portfolioApp\templates\index.html:310
 msgid "ArbStrat Crypto"
 msgstr "ArbStrat Crypto"
 
-#: .\portfolioApp\templates\index.html:308
+#: .\portfolioApp\templates\index.html:311
 msgid ""
 " Web application that seeks cryptocurrency pairs\n"
 "                            for arbitrage operations. It is based on a "
 "strategy of cointegrated pairs and calculations\n"
 "                            of different metrics to search for favorable "
-"arbitrage opportunities."
+"arbitrage opportunities. "
 msgstr ""
 " Aplicación web que busca pares de criptomonedas\n"
-"                            para operaciones de arbitraje. Se basa en una estrategia de pares cointegrados y cálculos\n"
-"                            de diferentes métricas para buscar oportunidades de arbitraje favorables."
+"                            para operaciones de arbitraje. Se basa en una "
+"estrategia de pares cointegrados y cálculos\n"
+"                            de diferentes métricas para buscar oportunidades "
+"favorables de arbitraje."
 
-#: .\portfolioApp\templates\index.html:318
+
+#: .\portfolioApp\templates\index.html:347
 msgid ""
-" Mobile application for the control and\n"
-"                            management of agricultural fields. Forms, "
-"routes, and more are recorded through the mobile\n"
-"                            application "
+" Prototype of a skateboarding video game, developed in Unity 3D. Project in "
+"development."
 msgstr ""
-" Aplicación móvil para el control y\n"
-"                            gestión de campos agrícolas. Formularios, rutas y más se registran a través de la aplicación móvil "
+" Prototipo de un videojuego de skateboarding, desarrollado en Unity 3D. "
+"Proyecto en desarrollo."
 
-#: .\portfolioApp\templates\index.html:328
-msgid ""
-" Website for the sale of gardening supplies. It\n"
-"                            features shopping carts, user management, among "
-"other functionalities."
-msgstr ""
-" Sitio web para la venta de suministros de jardinería. \n"
-"                            Cuenta con carritos de compra, gestión de usuarios, entre otras funcionalidades."
-
-#: .\portfolioApp\templates\index.html:343
+#: .\portfolioApp\templates\index.html:372
 msgid "Contact Me"
 msgstr "Contáctame"
 
-#: .\portfolioApp\templates\index.html:359
+#: .\portfolioApp\templates\index.html:388
 msgid "Social Profiles"
 msgstr "Perfiles Sociales"
 
-#: .\portfolioApp\templates\index.html:375
+#: .\portfolioApp\templates\index.html:404
 msgid "Email"
-msgstr "Correo Electrónico"
+msgstr "Correo electrónico"
 
-#: .\portfolioApp\templates\index.html:377
+#: .\portfolioApp\templates\index.html:406
 msgid "contacto@aordenes.com"
 msgstr "contacto@aordenes.com"
 

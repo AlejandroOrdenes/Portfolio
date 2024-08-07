@@ -106,44 +106,45 @@
           section.classList.add("section-show");
         }
 
-        
         scrollto(this.hash);
       }
     },
     true
   );
 
-  /**
-   * Activate/show sections on load with hash links
-   */
   window.addEventListener("load", () => {
-    if (window.location.hash) {
-      let initial_nav = select(window.location.hash);
+    let hash = window.location.hash;
 
-      if (initial_nav) {
-        let header = select("#header");
-        let navlinks = select("#navbar .nav-link", true);
+    // Seleccionar la sección por defecto si no hay hash
+    let initial_nav = select(hash ? hash : "#services");
 
-        header.classList.add("header-top");
+    if (initial_nav) {
+      
+      let navlinks = select("#navbar .nav-link", true);
+      
 
-        navlinks.forEach((item) => {
-          if (item.getAttribute("href") == window.location.hash) {
-            item.classList.add("active");
-          } else {
-            item.classList.remove("active");
-          }
-        });
+      navlinks.forEach((item) => {
+        if (item.getAttribute("href") == hash) {
+          item.classList.add("active");
+        } else if (!hash && item.getAttribute("href") == "#services") {
+          item.classList.add("active");
+        } else {
+          item.classList.remove("active");
+        }
+      });
 
-        setTimeout(function () {
-          initial_nav.classList.add("section-show");
-        }, 350);
+      sections.forEach((item) => {
+        item.classList.remove("section-show");
+      });
+      initial_nav.classList.add("section-show");
 
-        // Guardar el hash en localStorage
-        localStorage.setItem("currentHash", window.location.hash);
-        scrollto(window.location.hash);
+      if (hash) {
+        scrollto(hash);
       }
     }
+    
   });
+
 
   /**
    * Skills animation
@@ -190,7 +191,6 @@
       // Redirigir a la nueva URL
       window.location.href = newUrl;
     });
-
   });
 
   /**
