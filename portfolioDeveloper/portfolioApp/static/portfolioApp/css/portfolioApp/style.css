@@ -385,7 +385,7 @@ body, html {
     padding: 30px;
   }
   
-  @media (max-width: 768px) {
+  @media (max-width: 1080px) {
     section {
       top: 120px;
     }
@@ -1248,6 +1248,10 @@ body, html {
     margin-right: 5vw;
 
   }
+
+  .services .icon-box .icon{
+    display: none;
+  }
   .languageButton {
     display: flex;
     align-items: center;
@@ -1265,7 +1269,7 @@ body, html {
   }
 
   #header.header-top {
-    height: 8vh;
+    
     position: fixed;
 }
 
@@ -1276,6 +1280,7 @@ body, html {
 
 #header.header-top h1 {
   font-size: 5vw;
+  margin: auto;
 }
 
 section.section-show {
@@ -1326,8 +1331,8 @@ section.section-show {
   font-size: 2.5vw;
 }
 
-.services .icon-box h4 {
-  font-size: 2.5vw;
+.services .icon-box h4 a {
+  font-size: 4.5vw;
 }
 
 .services .icon-box p {
