@@ -35,7 +35,7 @@ LOCALE_PATHS = [
     BASE_DIR / 'locale',
 ]
 
-ALLOWED_HOSTS = ['aordenes.com', 'www.aordenes.com', '127.0.0.1', '134.209.34.158']
+ALLOWED_HOSTS = ['aordenes.com', 'www.aordenes.com', '127.0.0.1', '134.209.34.158', "localhost"]
 
 
 
