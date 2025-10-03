@@ -28,7 +28,7 @@ SECRET_KEY = config('SECRET_KEY')
 DATABASE_URL = config('DATABASE_URL')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 
 LOCALE_PATHS = [
