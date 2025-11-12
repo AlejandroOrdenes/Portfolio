@@ -1,23 +1,21 @@
-# ALGÚN TÍTULO DESCRIPTIVO
-# Copyright (C) AÑO DEL TITULAR DEL COPYRIGHT DEL PAQUETE
-# Este archivo se distribuye bajo la misma licencia que el paquete PACKAGE.
-# PRIMER AUTOR <EMAIL@ADDRESS>, AÑO.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: VERSIÓN DEL PAQUETE\n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-07 11:21-0400\n"
-"PO-Revision-Date: AÑO-MO-DA HO:MI+ZONE\n"
-"Last-Translator: NOMBRE COMPLETO <EMAIL@ADDRESS>\n"
-"Language-Team: IDIOMA <LL@li.org>\n"
-"Language: \n"
+"POT-Creation-Date: 2025-11-12 15:17-0400\n"
+"PO-Revision-Date: 2025-11-12 15:50-0400\n"
+"Last-Translator: Alejandro Ordenes <contacto@aordenes.com>\n"
+"Language-Team: Spanish <es@li.org>\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? "
-"1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: .\portfolioApp\templates\index.html:48
 #: .\portfolioApp\templates\index.html:88
@@ -44,7 +42,7 @@ msgid "Resume"
 msgstr "Currículum"
 
 #: .\portfolioApp\templates\index.html:59
-#: .\portfolioApp\templates\index.html:371
+#: .\portfolioApp\templates\index.html:407
 msgid "Contact"
 msgstr "Contacto"
 
@@ -72,7 +70,7 @@ msgstr ""
 "tecnológicas eficientes. Mi objetivo es desarrollar software que ofrezca un "
 "valor real a los usuarios y clientes, utilizando las mejores prácticas y "
 "tecnologías disponibles. Soy autodidacta y siempre busco nuevos desafíos y "
-"oportunidades para expandir mis conocimientos y habilidades."
+"oportunidades para ampliar mis conocimientos y habilidades."
 
 #: .\portfolioApp\templates\index.html:100
 msgid ""
@@ -149,7 +147,7 @@ msgstr "Experiencia Profesional"
 
 #: .\portfolioApp\templates\index.html:240
 msgid "Multiplatform Videogame, First TRY!"
-msgstr "Videojuego Multiplataforma, ¡Primer Intento!"
+msgstr "Videojuego Multiplataforma, ¡First Try!"
 
 #: .\portfolioApp\templates\index.html:241
 msgid "March 2024 - Present"
@@ -165,11 +163,11 @@ msgid ""
 "                                Backend develpment .NET\n"
 "                                "
 msgstr ""
-" Proyecto de videojuego 3D de skateboarding multiplataforma. \n"
-"                                Prototipado usando Unity y C#. \n"
+" Proyecto de videojuego 3D de skateboarding multiplataforma.\n"
+"                                Prototipado usando Unity y C#.\n"
 "                                Implementación de mecánicas de juego, "
 "animaciones, sistemas de\n"
-"                                UI y lógica del juego.\n"
+"                                interfaz de usuario y lógica del juego.\n"
 "                                Desarrollo backend con .NET\n"
 "                                "
 
@@ -193,9 +191,9 @@ msgid ""
 "cryptocurrencies, taking real-time price data from the Dydx API. An API was "
 "created for data handling and processing."
 msgstr ""
-" Desarrollo de una Aplicación Web para encontrar oportunidades de arbitraje "
-"con criptomonedas, tomando datos de precios en tiempo real de la API de "
-"Dydx. Se creó una API para el manejo y procesamiento de datos."
+" Desarrollo de una aplicación web para encontrar oportunidades de arbitraje "
+"con criptomonedas, utilizando datos de precios en tiempo real desde la API "
+"de Dydx. Se creó una API para el manejo y procesamiento de datos."
 
 #: .\portfolioApp\templates\index.html:275
 msgid "Bigeo, Mobile App"
@@ -209,23 +207,44 @@ msgstr "Septiembre 2022 - Diciembre 2022"
 msgid ""
 "Development of a mobile application for the control of fruit tree "
 "plantations."
-msgstr ""
-"Desarrollo de una aplicación móvil para el control de plantaciones de árboles "
-"frutales."
+msgstr "Desarrollo de una aplicación móvil para el control de plantaciones de árboles frutales."
 
 #: .\portfolioApp\templates\index.html:300
 msgid "My Proyects"
 msgstr "Mis Proyectos"
 
 #: .\portfolioApp\templates\index.html:303
-msgid "ArbStrat"
-msgstr "ArbStrat"
+msgid "StartTrend – AI-Powered News Platform with Automated Web Scraping"
+msgstr "StartTrend – Plataforma de Noticias con IA y Web Scraping Automatizado"
 
 #: .\portfolioApp\templates\index.html:310
+#: .\portfolioApp\templates\index.html:343
 msgid "ArbStrat Crypto"
 msgstr "ArbStrat Crypto"
 
 #: .\portfolioApp\templates\index.html:311
+msgid ""
+" StartTrend is a full-stack web platform that uses artificial intelligence "
+"and automated web scraping to create and publish technology news. It "
+"collects articles from sources like TechCrunch and VentureBeat, summarizes "
+"and rewrites them using OpenAI’s API, and generates unique AI images for "
+"each post. Built with Spring Boot, Next.js, and MongoDB, and deployed on a "
+"DigitalOcean VPS with Nginx and CRON automation, it delivers a fully "
+"autonomous and scalable news system. "
+msgstr ""
+" StartTrend es una plataforma web full-stack que utiliza inteligencia "
+"artificial y web scraping automatizado para crear y publicar noticias de "
+"tecnología. Recopila artículos de fuentes como TechCrunch y VentureBeat, los "
+"resume y reescribe usando la API de OpenAI, y genera imágenes únicas con IA "
+"para cada publicación. Desarrollada con Spring Boot, Next.js y MongoDB, y "
+"desplegada en un VPS de DigitalOcean con Nginx y automatización mediante "
+"CRON, ofrece un sistema de noticias totalmente autónomo y escalable."
+
+#: .\portfolioApp\templates\index.html:336
+msgid "ArbStrat"
+msgstr "ArbStrat"
+
+#: .\portfolioApp\templates\index.html:344
 msgid ""
 " Web application that seeks cryptocurrency pairs\n"
 "                            for arbitrage operations. It is based on a "
@@ -235,39 +254,46 @@ msgid ""
 msgstr ""
 " Aplicación web que busca pares de criptomonedas\n"
 "                            para operaciones de arbitraje. Se basa en una "
-"estrategia de pares cointegrados y cálculos\n"
-"                            de diferentes métricas para buscar oportunidades "
-"favorables de arbitraje."
+"estrategia de pares cointegrados y en cálculos\n"
+"                            de diferentes métricas para identificar "
+"oportunidades favorables de arbitraje."
 
+#: .\portfolioApp\templates\index.html:371
+msgid "First Try!"
+msgstr "First Try!"
 
-#: .\portfolioApp\templates\index.html:347
+#: .\portfolioApp\templates\index.html:379
+msgid "First Try! "
+msgstr "First Try! "
+
+#: .\portfolioApp\templates\index.html:380
 msgid ""
 " Prototype of a skateboarding video game, developed in Unity 3D. Project in "
 "development."
 msgstr ""
-" Prototipo de un videojuego de skateboarding, desarrollado en Unity 3D. "
-"Proyecto en desarrollo."
+" Prototipo de un videojuego de skateboarding desarrollado en Unity 3D. "
+"Proyecto actualmente en desarrollo."
 
-#: .\portfolioApp\templates\index.html:372
+#: .\portfolioApp\templates\index.html:408
 msgid "Contact Me"
 msgstr "Contáctame"
 
-#: .\portfolioApp\templates\index.html:388
+#: .\portfolioApp\templates\index.html:424
 msgid "Social Profiles"
 msgstr "Perfiles Sociales"
 
-#: .\portfolioApp\templates\index.html:404
+#: .\portfolioApp\templates\index.html:440
 msgid "Email"
 msgstr "Correo electrónico"
 
-#: .\portfolioApp\templates\index.html:406
+#: .\portfolioApp\templates\index.html:442
 msgid "contacto@aordenes.com"
 msgstr "contacto@aordenes.com"
 
-#: .\portfolioDeveloper\settings.py:133
+#: .\portfolioDeveloper\settings.py:135
 msgid "English"
 msgstr "Inglés"
 
-#: .\portfolioDeveloper\settings.py:134
+#: .\portfolioDeveloper\settings.py:136
 msgid "Spanish"
 msgstr "Español"
