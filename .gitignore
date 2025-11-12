@@ -24,7 +24,7 @@ __pycache__/
 # Archivos de media y estáticos generados
 /media/
 staticfiles/
-static/
+/static/
 
 # Configuración de editores y sistema operativo
 .DS_Store
