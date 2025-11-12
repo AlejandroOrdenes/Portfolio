@@ -1,4 +1,4 @@
-name: Deploy to VPS
+name: 🚀 Deploy to VPS
 
 on:
   push:
@@ -8,35 +8,50 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Deploy via SSH
+      - name: 📦 Deploy via SSH
         uses: appleboy/ssh-action@v1.0.0
         with:
           host: ${{ secrets.SSH_HOST }}
-          username: ${{ secrets.SSH_USERNAME }}
+          username: deploy                # ✅ usa el usuario deploy, no root
           key: ${{ secrets.SSH_KEY }}
           port: 22
+
           script: |
+            echo "=== Iniciando deploy en VPS ==="
+
             APP_DIR="/var/www/portfolio"
             cd "$APP_DIR"
 
-            # Actualizar código
+            echo "=== Actualizando código desde GitHub ==="
             git fetch --all
             git reset --hard origin/main
 
-            # Python virtualenv
-            python3 -m venv .venv || true
-            . .venv/bin/activate
+            echo "=== Activando entorno virtual ==="
+            if [ ! -d ".venv" ]; then
+              python3 -m venv .venv
+            fi
+            source .venv/bin/activate
+
+            echo "=== Actualizando dependencias ==="
             pip install -U pip
             if [ -f requirements.txt ]; then
               pip install -r requirements.txt
             fi
 
-            # Django opcional
+            echo "=== Ejecutando migraciones y collectstatic ==="
             if [ -f manage.py ]; then
-              python manage.py migrate --noinput || true
-              python manage.py collectstatic --noinput || true
+              python manage.py migrate --noinput
+              python manage.py collectstatic --noinput --verbosity 2
             fi
 
-            # Reiniciar servicio
-            sudo systemctl restart portfolio || true
+            echo "=== Verificando archivos estáticos ==="
+            ls -lh "$APP_DIR"/portfolioDeveloper/staticfiles/portfolioApp/images | tail -n 5
+
+            echo "=== Reiniciando servicio Gunicorn ==="
+            sudo systemctl daemon-reload
+            sudo systemctl restart portfolio
+            sudo systemctl status portfolio --no-pager -l | head -n 10
+
+            echo "=== Deploy completado correctamente ✅ ==="
